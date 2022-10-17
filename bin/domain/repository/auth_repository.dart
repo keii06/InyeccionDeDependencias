@@ -1,0 +1,4 @@
+
+class AuthRepository {
+      signIn(data){}
+}
