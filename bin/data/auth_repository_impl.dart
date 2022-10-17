@@ -7,8 +7,8 @@ class AuthRepositoryImpl implements AuthRepository {
   @override
   String signIn(data){
 
-    if (data.email == "Keii0612") {
-      if (data.password == "06121997") {
+    if (data.email == "email") {
+      if (data.password == "password") {
         return "Inicio correcto";
       } else {
         return "Contraseña incorrecta";
